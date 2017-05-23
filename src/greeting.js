@@ -6,6 +6,6 @@ function main(args) {
           body: args.challenge
         };
     } else {
-      return {response: args};
+      return {args.__ow_method};
     }
 }
