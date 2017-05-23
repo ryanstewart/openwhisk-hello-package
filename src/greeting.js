@@ -7,5 +7,5 @@
 function main(params) {
     var name = params.name || params.payload || 'stranger';
     var place = params.place || 'somewhere';
-    return {payload:  params};
+    return {payload:  params.payload};
 }
